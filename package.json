@@ -1,0 +1,22 @@
+{
+  "name": "unused-file-finder",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krlosvilla101994/unused-file-finder.git"
+  },
+  "author": "krlosvilla101994",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krlosvilla101994/unused-file-finder/issues"
+  },
+  "homepage": "https://github.com/krlosvilla101994/unused-file-finder#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
