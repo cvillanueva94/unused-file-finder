@@ -1,6 +1,6 @@
 {
   "name": "unused-file-finder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "src/index.js",
   "scripts": {
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/krlosvilla101994/unused-file-finder#readme",
   "devDependencies": {
     "jest": "^29.3.1"
-  }
+  },
+  "keywords": [
+    "nodejs"
+  ]
 }
