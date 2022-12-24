@@ -1,7 +1,8 @@
-const values={
-    directory: '.',
-    ignorePaths: ['.git']
+#!/usr/bin/env node
 
+const values = {
+    directory: '.',
+    ignorePaths: ['.git', 'node_modules']
 }
 const structure = require("./structure")(values.directory, values)
 
