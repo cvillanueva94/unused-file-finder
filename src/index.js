@@ -15,5 +15,5 @@ console.log(`
 `, 'color: green; font-weight: bold;');
 
 response.forEach(element => {
-    console.log(`   - ${element} \n`)
+    console.log(` - ${element}`)
 })
