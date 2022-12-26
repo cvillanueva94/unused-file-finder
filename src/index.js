@@ -2,7 +2,7 @@
 
 const values = {
     directory: '.',
-    ignorePaths: ['.git', 'node_modules']
+    ignorePaths: ['.git', 'node_modules', 'public']
 }
 const structure = require("../src/structure")(values.directory, values)
 
