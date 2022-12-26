@@ -4,10 +4,10 @@ const values = {
     directory: '.',
     ignorePaths: ['.git', 'node_modules']
 }
-const structure = require("./structure")(values.directory, values)
+const structure = require("../src/structure")(values.directory, values)
 
 
-const response = require('./find')(structure)
+const response = require('../src/find')(structure)
 
 console.log(`
 %c Unused files in your project:
