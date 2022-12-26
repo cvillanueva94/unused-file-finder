@@ -1,6 +1,6 @@
 {
   "name": "unused-file-finder",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "This package will help you to find the files that you have in your project and that are not used.",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
@@ -12,7 +12,7 @@
     "prepublish": "npm run build"
   },
   "bin": {
-    "unused-file-finder": "./src/index.js"
+    "unused-file-finder": "dist/index.js"
   },
   "repository": {
     "type": "git",
