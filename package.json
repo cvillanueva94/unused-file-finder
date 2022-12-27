@@ -1,6 +1,6 @@
 {
   "name": "unused-file-finder",
-  "version": "0.0.15",
+  "version": "0.0.20",
   "description": "This package will help you to find the files that you have in your project and that are not used.",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
