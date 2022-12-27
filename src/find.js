@@ -12,7 +12,7 @@ const returnRequires = (filePath) => {
 };
 
 const func = (fData)=>{
-    for(const key of fData){
+    for(const key of fData) {
         const requires = returnRequires(key)
         for(const requireX of requires ||[]) {
             let value = /require\(['"](.*?)['"]\)/.exec(requireX)

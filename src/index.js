@@ -1,9 +1,17 @@
 #!/usr/bin/env node
+const path = require('path');
 
-const values = {
+let values = {
     directory: '.',
     ignorePaths: ['.git', 'node_modules', 'public']
 }
+
+const packageJSON = require(path.resolve('.', 'package.json'))
+
+if (packageJSON.unusedFileFinder) {
+    values = { ...packageJSON.unusedFileFinder, ...values }
+}
+
 const structure = require("../src/structure")(values.directory, values)
 
 
